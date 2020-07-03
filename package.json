@@ -1,6 +1,6 @@
 {
   "name": "dotenv-mix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add dotenv-webpack to Laravel Mix",
   "main": "index.js",
   "repository": "https://github.com/jmsfwk/dotenv-mix",
