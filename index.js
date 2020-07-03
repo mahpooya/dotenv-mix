@@ -12,9 +12,9 @@ class Env {
    * Ex: mix.env('.env.production', { systemvars: true });
    *
    * @param {string} [path]
-   * @param {options} [options]
+   * @param {Object} [options]
    */
-  register (path, options) {
+  register (path = '.env', options= {}) {
     this.options = {
       ...options,
       path
