@@ -1,0 +1,17 @@
+{
+  "name": "dotenv-mix",
+  "version": "1.0.0",
+  "description": "Add dotenv-webpack to Laravel Mix",
+  "main": "index.js",
+  "repository": "https://github.com/jmsfwk/dotenv-mix",
+  "author": {
+    "name": "James Fenwick"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv-webpack": "^1.8.0"
+  },
+  "peerDependencies": {
+    "laravel-mix": "^5.0.4"
+  }
+}
