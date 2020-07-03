@@ -2,7 +2,7 @@ const Dotenv = require('dotenv-webpack')
 
 class Env {
   constructor () {
-    this.options = {}
+    this.options = []
   }
 
   /**
@@ -14,11 +14,11 @@ class Env {
    * @param {string} [path]
    * @param {Object} [options]
    */
-  register (path = '.env', options= {}) {
-    this.options = {
+  register (path = '.env', options = {}) {
+    this.options.push({
       ...options,
       path
-    }
+    })
   }
 
   /**
@@ -27,7 +27,9 @@ class Env {
    * @param {Object} config
    */
   webpackConfig (config) {
-    config.plugins.push(new Dotenv(this.options))
+    this.options.forEach((options) => {
+      config.plugins.push(new Dotenv(options))
+    })
   }
 }
 
