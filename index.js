@@ -27,9 +27,7 @@ class Env {
    * @param {Object} config
    */
   webpackConfig (config) {
-    return {
-      plugins: [new Dotenv(this.options)]
-    }
+    config.plugins.push(new Dotenv(this.options))
   }
 }
 
