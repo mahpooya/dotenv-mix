@@ -1,4 +1,4 @@
-Add the [`dotenv-webpack`] plugin to Laravel Mix to securely add dotenv and other environment variables and only
+Add the [`dotenv-webpack`][1] plugin to Laravel Mix to securely add dotenv and other environment variables and only
 expose what you use.
 
 <div align="center">
@@ -32,7 +32,7 @@ To use a different file pass the path as the first argument to `.env()`.
 ```js
 mix.env('.env.mix')
 ```
-An options object can be passed as the second argument. This supports all the same [options][1] as `dotenv-webpack`
+An options object can be passed as the second argument. This supports all the same [options][2] as `dotenv-webpack`
 (except `path`). 
 
 [1]: https://github.com/mrsteele/dotenv-webpack
