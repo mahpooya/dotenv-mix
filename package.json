@@ -1,17 +1,32 @@
 {
-  "name": "dotenv-mix",
-  "version": "1.1.0",
-  "description": "Add dotenv-webpack to Laravel Mix",
+  "name": "@mahpooya/dotenv-mix",
+  "version": "1.1.1",
+  "description": "Add dotenv-webpack to Laravel Mix (Fork for update dependencies)",
   "main": "index.js",
-  "repository": "https://github.com/jmsfwk/dotenv-mix",
-  "author": {
-    "name": "James Fenwick"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahpooya/dotenv-mix.git"
   },
+  "author": "James Fenwick",
+  "contributors": [
+    "Mahpooya Damavand <mahpooya@gmail.com>"
+  ],
   "license": "UNLICENSED",
   "dependencies": {
-    "dotenv-webpack": "^1.8.0"
+    "dotenv-webpack": "^8.0.1"
   },
   "peerDependencies": {
-    "laravel-mix": "^5.0.4"
-  }
+    "laravel-mix": "npm:@mahpooya/laravel-mix@^6.0.50"
+  },
+  "bugs": {
+    "url": "https://github.com/jmsfwk/dotenv-mix/issues"
+  },
+  "homepage": "https://github.com/mahpooya/dotenv-mix#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dotenv-mix",
+    "@mahpooya/dotenv-mix"
+  ]
 }

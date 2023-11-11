@@ -4,17 +4,21 @@ expose what you use.
 <div align="center">
   <h1>
     <img width="30" heigth="30" src="https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.png" alt="">
-    dotenv-mix
+    @mahpooya/dotenv-mix
   </h1>
 </div>
 
 ## Installation
 
-`yarn add dotenv-mix`
+```
+npm install @mahpooya/dotenv-mix --save-dev
+```
+
+`yarn add @mahpooya/dotenv-mix`
 
 ```js
-const mix = require('laravel-mix')
-const env = require('dotenv-mix')
+const mix = require('@mahpooya/laravel-mix')
+const env = require('@mahpooya/dotenv-mix')
 
 // Register with Laravel Mix. You can use any name you want
 mix.extend('env', env)
