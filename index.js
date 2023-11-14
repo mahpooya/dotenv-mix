@@ -16,7 +16,7 @@ class Env {
    */
   register (path = '.env', options = {}) {
     //TODO: remove this:
-    console.log("Then.js > register mahpooya logs");
+    console.log("dotenv-mix index.js > register mahpooya logs");
     console.log(
         JSON.stringify({
             a: 'try to this.options.push...',
