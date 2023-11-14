@@ -15,6 +15,17 @@ class Env {
    * @param {Object} [options]
    */
   register (path = '.env', options = {}) {
+    //TODO: remove this:
+    console.log("Then.js > register mahpooya logs");
+    console.log(
+        JSON.stringify({
+            a: 'try to this.options.push...',
+            thisoptionspush: {
+                  ...options,
+                  path
+                },
+        }),
+    );
     this.options.push({
       ...options,
       path
