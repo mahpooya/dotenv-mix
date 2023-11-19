@@ -43,3 +43,9 @@ fabric.properties
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains,yarn
+node_modules
+
+yarn.lock
+yarn-error.log
+package-lock.json
+
